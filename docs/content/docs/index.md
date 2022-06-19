@@ -6,7 +6,7 @@ next: '/docs/installation/'
 
 # Introduction
 
-[SmartHub](https://github.com/SmartHub-Io/SmartHub) is a project for anyone who want to upgrade his home with some small digital helpers to improve his life.
+[homely](https://github.com/maxstue/homely) is a project for anyone who want to upgrade his home with some small digital helpers to improve his life.
 
 __This documantion and the project are still a WIP and we appreciate any help we can get :)__
 

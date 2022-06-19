@@ -51,12 +51,12 @@ namespace SmartHub.Infrastructure.Services.Initialization
 
 		private void WelcomeWithAsciiLogo()
 		{
-			_logger.Information("{Environment} {Figgle}", Environment.NewLine, FiggleFonts.Standard.Render("SmartHub"));
+			_logger.Information("{Environment} {Figgle}", Environment.NewLine, FiggleFonts.Standard.Render("homely"));
 			_logger.Information(
-				$"{Environment.NewLine}Welcome to SmartHub, this is a smarthome written in asp.net core and vue3." +
+				$"{Environment.NewLine}Welcome to homely, this is a smarthome written in asp.net core and vue3." +
 				$"{Environment.NewLine}This is a private project of mine and I use this to learn new things and create my own smarthome that " +
 				$"{Environment.NewLine}I am going to use myself." + $"{Environment.NewLine}" +
-				"For more information and if you encounter any issues or have any feedback, please visit: https://github.com/SmartHub-Io/SmartHub." +
+				"For more information and if you encounter any issues or have any feedback, please visit: https://github.com/maxstue/homely." +
 				$"{Environment.NewLine}--------------------------------------------------");
 		}
 

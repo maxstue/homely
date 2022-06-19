@@ -13,7 +13,7 @@ module.exports = {
     touchicon: './src/assets/default_64.png'
   },
   settings: {
-    URL_GITHUB: 'https://github.com/SmartHub-Io/SmartHub',
+    URL_GITHUB: 'https://github.com/masxstue/homely',
     github: true,
     nav: {
       links: [

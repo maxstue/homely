@@ -11,7 +11,7 @@ We appreciate contributions of any kind. By participation in these projects, you
 
 ### Any enhancements/bugs/etc you see?
 
-Add an [issue](https://github.com/SmartHub-Io/SmartHub/issues/new/choose). We'll review it, add labels and reply as soon as possible.
+Add an [issue](https://github.com/maxstue/homely/issues/new/choose). We'll review it, add labels and reply as soon as possible.
 
 ### Documentation/etc need updating?
 
@@ -22,12 +22,12 @@ Go right ahead! Just submit a pull request when you're done.
 We love pull requests from everyone.
 
 > **The PR process applies to all repositories !!**  
-> **All changes to [SmartHub](https://github.com/SmartHub-Io/SmartHub) or [SmartHub-Plugins](https://github.com/SmartHub-Io/SmartHub-Plugins) should be based from the `dev` branch.**
+> **All changes to [SmartHub](https://github.com/maxstue/homely/tree/main/packages/app) or [SmartHub-Plugins](https://github.com/maxstue/homely/tree/main/packages/plugins) should be based from the `dev` branch.**
 
 1. Clone (or fork) the repo.
 2. Create a new branch, please use the [gitflow naming](https://danielkummer.github.io/git-flow-cheatsheet/).
     - e.g. "feature/addFeatureNameHere", "hotfix/addNameHere"
-3. Push your changes to your branch and [submit a pull request](https://github.com/SmartHub-Io/SmartHub/compare) against the dev branch.  
+3. Push your changes to your branch and [submit a pull request](https://github.com/maxstue/homely/compare) against the dev branch.  
     Some tips:
     1. Ensure the code is up to date __and__ all required pipelines are passed.(if forked you won't see the pipeline results)
     2. Update the README and/ or documentation(SmartHub-Docs) - if needed
@@ -37,8 +37,8 @@ We love pull requests from everyone.
 
 ## Get your Environment ready
 
-To develop on your local machine and contribute to any repository _([SmartHub](https://github.com/SmartHub-Io/SmartHub),
-[SmartHub-Docs](https://github.com/SmartHub-Io/SmartHub-Docs), [SmartHub-Plugins](https://github.com/SmartHub-Io/SmartHub-Plugins))_,
+To develop on your local machine and contribute to any repository _([SmartHub](https://github.com/maxstue/homely/tree/main/packages/app),
+[SmartHub-Docs](https://github.com/maxstue/homely), [SmartHub-Plugins](https://github.com/maxstue/homely/tree/main/packages/plugins))_,
 just follow the steps below for the respective one.
 
 ### SmartHub
@@ -58,7 +58,7 @@ Follow these steps if you want to contribute to the __SmartHub__ project
     `dotnet tool install --global dotnet-ef`  
     - To update it type into a terminal `dotnet tool update --global dotnet-ef`
 5. Clone Repository
-    - `git clone https://github.com/SmartHub-Io/SmartHub.git`
+    - `git clone https://github.com/maxstue/homely.git`
 6. Build and create database
     - Go to "SmartHub.Api/"
         - Type into a terminal `dotnet restore` then `dotnet build`
@@ -91,7 +91,7 @@ Follow these steps if you want to contribute to the __Smarthub-Docs__ project.
 #### Installation
 
 1. Clone repository
-    - `git clone https://github.com/SmartHub-Io/SmartHub-Docs.git`
+    - `git clone https://github.com/maxstue/homely.git`
 2. Build and install packages
     - Go to the root directory
         - Type into a terminal `npm install`
@@ -109,7 +109,7 @@ More information on plugins are on the next page.
 #### Installation
 
 1. Clone repository
-    - `git clone https://github.com/SmartHub-Io/SmartHub-Plugins.git`
+    - `git clone https://github.com/maxstue/homely.git`
 2. Build 
     - Go to "SmartHub-Plugins/SmartHub-Plugins/" folder
         - Type into terminal `dotnet resore` and `dotnet build`

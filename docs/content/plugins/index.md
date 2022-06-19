@@ -6,6 +6,6 @@ next: '/plugins/mock/'
 
 # Introduction
 
-[SmartHub-Plugins](https://github.com/SmartHub-Io/SmartHub-Plugins) contains all available plugins .
+[SmartHub-Plugins](https://github.com/maxstue/homely) contains all available plugins .
 
 More Coming soon...
