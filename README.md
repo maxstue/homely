@@ -17,11 +17,11 @@ The biggest goal for me is that I can completely use __SmartHub__ at home and ma
 
 👤 **Maximilian Stümpfl**
 
-* Github: [Maximilian Stümpfl](https://github.com/lTimeless)
+* Github: [Maximilian Stümpfl](https://github.com/maxstue)
 
 ## 🤝 Contributing
 
-All contributions, issues, feature requests and all suggestions are welcome!<br />Feel free to create a new issue [here](https://github.com/SmartHub-Io/SmartHub/issues).  
+All contributions, issues, feature requests and all suggestions are welcome!<br />Feel free to create a new issue [here](https://github.com/maxstue/homely/issues).  
 For more informations about how to contribute and how to setup your local environment visit the [official documantation](https://smarthub-io.github.io/SmartHub-Docs/docs/how-to-contribute/#any-enhancementsbugsetc-you-see).
 ## Show your support
 
@@ -29,4 +29,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT License](https://github.com/SmartHub-Io/SmartHub/blob/master/LICENSE) licensed.
+This project is [MIT License](https://github.com/maxstue/homeley/blob/main/LICENSE) licensed.

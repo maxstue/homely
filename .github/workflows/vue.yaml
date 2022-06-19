@@ -1,0 +1,32 @@
+name: Vue CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master, develop]
+    paths:
+      - 'src/WebUI/ClientApp/**'
+      - '!**.md'
+  pull_request:
+    branches: [ master, develop]
+    paths:
+      - 'src/**'
+
+env:
+  SmartHubUipath: src/WebUI/ClientApp
+  
+jobs:
+  Install_Build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Use latest Node.js version
+      uses: actions/setup-node@master
+          
+    - name: Installing project dependencies
+      run: cd ${{ env.SmartHubUipath }} && yarn --frozen-lockfile
+
+    - name: Building the project
+      run: cd ${{ env.SmartHubUipath }} && yarn build
