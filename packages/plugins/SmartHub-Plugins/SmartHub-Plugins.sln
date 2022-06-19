@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MockPlugin", "MockPlugin\MockPlugin.csproj", "{1AD96C9C-ED62-4F3F-B0F2-5AF2385F5A88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShellyPlugin", "ShellyPlugin\ShellyPlugin.csproj", "{FA216928-783E-4DC6-B14D-1DA5DA969ECA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{21D474F3-155B-45E0-9A37-6EB1433D7049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartHub.BasePlugin", "..\..\SmartHub\SmartHub\SmartHub.BasePlugin\SmartHub.BasePlugin.csproj", "{8F639D5D-F8EE-4D93-A3A4-3D160BC82BC6}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\SmartHub\SmartHub\SmartHub.BasePlugin\SmartHub.BasePlugin.projitems*{1ad96c9c-ed62-4f3f-b0f2-5af2385f5a88}*SharedItemsImports = 5
+		..\..\SmartHub\SmartHub\SmartHub.BasePlugin\SmartHub.BasePlugin.projitems*{80ad1fa2-346a-4e2c-9678-1cfc9b4b45a8}*SharedItemsImports = 13
+		..\..\SmartHub\SmartHub\SmartHub.BasePlugin\SmartHub.BasePlugin.projitems*{fa216928-783e-4dc6-b14d-1da5da969eca}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AD96C9C-ED62-4F3F-B0F2-5AF2385F5A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD96C9C-ED62-4F3F-B0F2-5AF2385F5A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD96C9C-ED62-4F3F-B0F2-5AF2385F5A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD96C9C-ED62-4F3F-B0F2-5AF2385F5A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA216928-783E-4DC6-B14D-1DA5DA969ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA216928-783E-4DC6-B14D-1DA5DA969ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA216928-783E-4DC6-B14D-1DA5DA969ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA216928-783E-4DC6-B14D-1DA5DA969ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F639D5D-F8EE-4D93-A3A4-3D160BC82BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F639D5D-F8EE-4D93-A3A4-3D160BC82BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F639D5D-F8EE-4D93-A3A4-3D160BC82BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F639D5D-F8EE-4D93-A3A4-3D160BC82BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F639D5D-F8EE-4D93-A3A4-3D160BC82BC6} = {21D474F3-155B-45E0-9A37-6EB1433D7049}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12C40B51-0C22-4A6D-9053-6BB9949ECBBB}
+	EndGlobalSection
+EndGlobal

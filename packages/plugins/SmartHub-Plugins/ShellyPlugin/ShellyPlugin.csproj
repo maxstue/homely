@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <CopyDestionationPath>..\..\Plugins</CopyDestionationPath>
+        <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+    </PropertyGroup>
+ 
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\SmartHub\SmartHub\SmartHub.BasePlugin\SmartHub.BasePlugin.csproj" Private="false" />
+    </ItemGroup>
+
+    <Target Name="CopyOutputToDestination" AfterTargets="AfterBuild">
+
+        <ItemGroup>
+            <OutputFiles Include="$(OutDir)**\*" Exclude="SmartHub.*" />
+        </ItemGroup>
+
+        <Message Text="Copying output file to destination: @(OutputFiles)" Importance="high" />
+
+        <Copy SourceFiles="@(OutputFiles)" DestinationFolder="$(CopyDestionationPath)\$(ProjectName)\%(RecursiveDir)" OverwriteReadOnlyFiles="true" />
+
+    </Target>
+
+</Project>

@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  database:
+    image: postgres:alpine
+    restart: "no"
+#  smartHub:
+#    image: ${DOCKER_REGISTRY-}webui
+#    build:
+#      context: .
+#      dockerfile: src/WebUI/Dockerfile
+#    depends_on:
+#       - postgres_database
+
+volumes:
+  database-data:
