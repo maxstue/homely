@@ -26,7 +26,7 @@ jobs:
             target: osx-x64
     runs-on: ${{ matrix.os }}
     steps:
-        - uses: actions/checkout@v2
+        - uses: actions/checkout@v4
         - name: Setup .NET 5
           uses: actions/setup-dotnet@v1
           with:
